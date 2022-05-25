@@ -1,0 +1,32 @@
+# include <iostream>
+# include <string>
+using namespace std;
+
+Class employee{
+             Public: 
+                 Void fname();
+                 Void lname();
+                 Void age ();
+             Private:
+                 Char* fn;
+                 Char* ln;
+                 Int  a ; 
+                                }
+int main()
+
+{
+char fname[30], lname [30];
+ cout << "\n\n Print the name in reverse where last name comes first:\n";
+ 
+cout << " Input First Name: ";
+cin >> fname; 
+
+cout << " Input Last Name: ";
+cin >> lname;
+
+cout << " Name in reverse is: "<< lname << " "<< fname <<endl;
+	cout << endl;
+ Cout <<" Age : " ; 
+
+return 0;
+}
